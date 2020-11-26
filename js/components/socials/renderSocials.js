@@ -1,7 +1,7 @@
-import { inputValidation } from "../inputValidation.js"; /* susiimportafom if validacija, kuri yra kitame faile ir kuri validuos gautus duomenis dar pries paluriant funkcija */
+import { isinputValid } from "../isinputValid.js"; /* susiimportafom if validacija, kuri yra kitame faile ir kuri validuos gautus duomenis dar pries paluriant funkcija */
 
 function renderSocials(data) {
-    if (!inputValidation(data)) {
+    if (!isinputValid(data)) {
         return false;
     }
     
