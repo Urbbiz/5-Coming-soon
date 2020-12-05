@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
     <!-- reset/init -->
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <!-- 3rd party css -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <!-- component -->
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/mouse.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <link rel="stylesheet" href="./css/toast.css">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
 </head>
@@ -24,29 +29,46 @@
             <img src="./img/coming-soon-logo.png" alt="Logo">
             <h1>Coming soon</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam fugiat facilis asperiores, quo harum?</p>
-            <div class="clock">
-                CLOCK
-            </div>
+            <div class="clock"></div>
             <form class="form">
-                SUBSCRIBE FORM
+                <input type="email" placeholder="Email" required data-validation="email">
+                <input type="submit" value="Subscribe now!" class="btn">
             </form>
             <div class="mouse">
-                MOUSE
+                <div class="wheel"></div>
             </div>
         </div>
     </div>
     <main class="container">
         <div class="row">
-            <div class="column left">LEFT CONTENT</div>
-            <div class="column right">RIGHT CONTENT</div>
+            <div class="column left">
+                <h2>About startup</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus impedit temporibus labore, <a href="#">Matrox</a> veniam tenetur ea quaerat cumque dolor distinctio.</p>
+            </div>
+            <div class="column right">
+                <h2>Have any question?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo doloribus quisquam <a href="mailto:vardenis@pastelis.xyz">vardenis@pastelis.xyz</a> natus autem dolorem. Eaque, molestias assumenda.</p>
+                <form class="form">
+                    <input type="text" placeholder="Name" data-validation="name">
+                    <input type="email" placeholder="Email" data-validation="email">
+                    <textarea maxlength="1000" placeholder="Message" data-validation="text"></textarea>
+                    <input type="submit" value="Send message" class="btn">
+                </form>
+            </div>
         </div>
     </main>
     <footer class="container bg-main-color">
         <div class="row">
-            SOCIAL
+            <a href="#" class="btn btn-secondary-color circle fa fa-angle-up"></a>
         </div>
         <div class="row-short">
-            BOTTOM TEXTS
+            <img src="./img/logo-footer.png" alt="matrox logo">
+            <div class="text-trio">
+                <div class="text">Copyright &copy; 2020 <a href="#">Matrox</a></div>
+                <div class="text">All rights reserved</div>
+                <div class="text">Designed by <a href="#">TrendyTheme</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias <a href="#">200+</a> quia consequuntur distinctio libero qui atque incidunt <a href="#">Matrox</a> saepe nemo.</p>
         </div>
     </footer>
 
