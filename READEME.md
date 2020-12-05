@@ -5,11 +5,11 @@
 
 
 # Coming soon
-### 19 group C website project
+
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/18-grupe-portfolio-saas-one/
+Site published at https://urbbiz.github.io/5-Coming-soon/
 
 Design: [Saas-one](https://altrcloud.ru/saasone/index-two)
 
