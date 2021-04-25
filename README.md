@@ -7,7 +7,7 @@
 # Coming soon
 
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
+This project is for educational porpuses only. Pull request are welcome, but priority for my real-life friends! Thank you for your cooperation!
 
 Site published at https://urbbiz.github.io/5-Coming-soon/
 
